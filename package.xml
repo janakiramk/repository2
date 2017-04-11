@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
+        <members>ApexCls1</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
         <members>AppSwitcher</members>
         <members>Salesforce1</members>
         <name>AppMenu</name>
@@ -33,7 +37,8 @@
         <members>standard__Chatter</members>
         <members>standard__Community</members>
         <members>standard__Content</members>
-        <members>standard__LightningSales</members>
+        <members>standard__LightningSalesConsole</members>
+        <members>standard__LightningService</members>
         <members>standard__Marketing</members>
         <members>standard__Platform</members>
         <members>standard__Sales</members>
@@ -121,11 +126,23 @@
         <members>Task</members>
         <members>User</members>
         <members>UserProvisioningRequest</members>
+        <members>data77__c</members>
+        <members>dummy_object__c</members>
+        <members>org_obj_sample__c</members>
+        <members>sampleObject__c</members>
+        <members>substitute1__c</members>
+        <members>testingsample__c</members>
         <members>trunkVariable__c</members>
         <members>trunk_label__c</members>
         <name>CustomObject</name>
     </types>
     <types>
+        <members>data77__c-en_US</members>
+        <members>dummy_object__c-en_US</members>
+        <members>org_obj_sample__c-en_US</members>
+        <members>sampleObject__c-en_US</members>
+        <members>substitute1__c-en_US</members>
+        <members>testingsample__c-en_US</members>
         <members>trunkVariable__c-en_US</members>
         <members>trunk_label__c-en_US</members>
         <name>CustomObjectTranslation</name>
@@ -197,6 +214,12 @@
         <members>UserProvAccount-User Provisioning Account Layout</members>
         <members>UserProvisioningLog-User Provisioning Log Layout</members>
         <members>UserProvisioningRequest-User Provisioning Request Layout</members>
+        <members>data77__c-data77 Layout</members>
+        <members>dummy_object__c-dummy_object Layout</members>
+        <members>org_obj_sample__c-org_obj_sample Layout</members>
+        <members>sampleObject__c-sampleObject Layout</members>
+        <members>substitute1__c-substitute1 Layout</members>
+        <members>testingsample__c-testingsample Layout</members>
         <members>trunkVariable__c-trunkVariable Layout</members>
         <members>trunk_label__c-trunk_label Layout</members>
         <name>Layout</name>
