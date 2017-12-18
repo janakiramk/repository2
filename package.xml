@@ -10,6 +10,13 @@
         <members>Lead.Standard</members>
         <name>AssignmentRule</name>
     </types>
+	 <types>
+        <members>A21</members>
+        <members>A2222</members>
+        <members>Ac1111</members>
+        <members>Ac2</members>
+        <name>ApexClass</name>
+    </types>
     <types>
         <members>Case</members>
         <members>Lead</members>
