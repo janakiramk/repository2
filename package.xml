@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <version>39.0</version>
     <types>
         <members>AppSwitcher</members>
         <members>Salesforce1</members>
@@ -126,6 +127,10 @@
         <name>CustomObject</name>
     </types>
     <types>
+        <members>CustomLabel1__c-en_US</members>
+        <members>Custom_Object__c-en_US</members>
+        <members>EZcommitTest1__c-en_US</members>
+        <members>EZcommitTest2__c-en_US</members>
         <members>trunkVariable__c-en_US</members>
         <members>trunk_label__c-en_US</members>
         <name>CustomObjectTranslation</name>
@@ -191,6 +196,8 @@
         <members>Pricebook2-Price Book Layout</members>
         <members>PricebookEntry-Price Book Entry Layout</members>
         <members>Product2-Product Layout</members>
+        <members>Scorecard-Scorecard Layout</members>
+        <members>ScorecardMetric-Scorecard Metric Layout</members>
         <members>Solution-Solution Layout</members>
         <members>Task-Task Layout</members>
         <members>User-User Layout</members>
@@ -370,6 +377,34 @@
         <name>Role</name>
     </types>
     <types>
+        <members>Account</members>
+        <members>Activities</members>
+        <members>Address</members>
+        <members>BusinessHours</members>
+        <members>Case</members>
+        <members>Company</members>
+        <members>Contract</members>
+        <members>Entitlement</members>
+        <members>FileUploadAndDownloadSecurity</members>
+        <members>Forecasting</members>
+        <members>Ideas</members>
+        <members>Knowledge</members>
+        <members>LiveAgent</members>
+        <members>Macro</members>
+        <members>Mobile</members>
+        <members>Name</members>
+        <members>Opportunity</members>
+        <members>Order</members>
+        <members>OrgPreference</members>
+        <members>PathAssistant</members>
+        <members>PersonalJourney</members>
+        <members>Product</members>
+        <members>Quote</members>
+        <members>Search</members>
+        <members>Security</members>
+        <name>Settings</name>
+    </types>
+    <types>
         <members>AccountContactMultiRoles</members>
         <members>AccountContactRole</members>
         <members>AccountOwnership</members>
@@ -436,33 +471,4 @@
         <members>Opportunity.DeliveryStatus</members>
         <name>WebLink</name>
     </types>
-    <types>
-        <members>Account</members>
-        <members>Activities</members>
-        <members>Address</members>
-        <members>BusinessHours</members>
-        <members>Case</members>
-        <members>Company</members>
-        <members>Contract</members>
-        <members>Entitlement</members>
-        <members>FileUploadAndDownloadSecurity</members>
-        <members>Forecasting</members>
-        <members>Ideas</members>
-        <members>Knowledge</members>
-        <members>LiveAgent</members>
-        <members>Macro</members>
-        <members>Mobile</members>
-        <members>Name</members>
-        <members>Opportunity</members>
-        <members>Order</members>
-        <members>OrgPreference</members>
-        <members>PathAssistant</members>
-        <members>PersonalJourney</members>
-        <members>Product</members>
-        <members>Quote</members>
-        <members>Search</members>
-        <members>Security</members>
-        <name>Settings</name>
-    </types>
-    <version>39.0</version>
 </Package>
