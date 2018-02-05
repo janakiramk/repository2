@@ -2,6 +2,9 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>39.0</version>
     <types>
+        <members>A21</members>
+        <members>A2222</members>
+        <members>Ac1111</members>
         <members>AccCls1</members>
         <members>AccCls2</members>
         <members>AccCls3</members>
@@ -109,7 +112,6 @@
         <members>Asset.InstallDate</members>
         <members>Asset.IsCompetitorProduct</members>
         <members>Asset.IsInternal</members>
-        <members>Asset.LocationId</members>
         <members>Asset.Name</members>
         <members>Asset.OwnerId</members>
         <members>Asset.ParentId</members>
@@ -123,6 +125,7 @@
         <members>Asset.RootAssetId</members>
         <members>Asset.SerialNumber</members>
         <members>Asset.Status</members>
+        <members>Asset.StockKeepingUnit</members>
         <members>Asset.UsageEndDate</members>
         <members>AssetRelationship.AssetId</members>
         <members>AssetRelationship.FromDate</members>
@@ -255,6 +258,7 @@
         <members>ContentVersion.Language</members>
         <members>ContentVersion.OwnerId</members>
         <members>ContentVersion.SharingOption</members>
+        <members>ContentVersion.SharingPrivacy</members>
         <members>ContentVersion.TagCsv</members>
         <members>ContentVersion.Title</members>
         <members>Contract.AccountId</members>
@@ -450,9 +454,12 @@
         <members>Lead.Title</members>
         <members>Lead.Website</members>
         <members>LeadCleanInfo.Industry</members>
+        <members>Macro.AutorabitExtId__c</members>
         <members>Macro.Description</members>
+        <members>Macro.IsAlohaSupported</members>
         <members>Macro.Name</members>
         <members>Macro.OwnerId</members>
+        <members>Macro.StartingContext</members>
         <members>Opportunity.AccountId</members>
         <members>Opportunity.Amount</members>
         <members>Opportunity.CampaignId</members>
@@ -550,6 +557,14 @@
         <members>Product2.Name</members>
         <members>Product2.ProductCode</members>
         <members>Product2.QuantityUnitOfMeasure</members>
+        <members>Product2.StockKeepingUnit</members>
+        <members>Scorecard.Description</members>
+        <members>Scorecard.Name</members>
+        <members>ScorecardMetric.Category</members>
+        <members>ScorecardMetric.Description</members>
+        <members>ScorecardMetric.Name</members>
+        <members>ScorecardMetric.ReportId</members>
+        <members>ScorecardMetric.ScorecardId</members>
         <members>SocialPersona.ExternalId</members>
         <members>SocialPersona.ExternalPictureURL</members>
         <members>SocialPersona.Name</members>
@@ -557,6 +572,7 @@
         <members>SocialPersona.ProfileUrl</members>
         <members>SocialPersona.Provider</members>
         <members>SocialPersona.SourceApp</members>
+        <members>Solution.AutorabitExtId__c</members>
         <members>Solution.IsPublished</members>
         <members>Solution.IsPublishedInPublicKb</members>
         <members>Solution.SolutionName</members>
@@ -570,6 +586,7 @@
         <members>Task.Description</members>
         <members>Task.Email</members>
         <members>Task.IsRecurrence</members>
+        <members>Task.IsReminderSet</members>
         <members>Task.OwnerId</members>
         <members>Task.Phone</members>
         <members>Task.Priority</members>
@@ -641,6 +658,8 @@
         <members>Pricebook2</members>
         <members>PricebookEntry</members>
         <members>Product2</members>
+        <members>Scorecard</members>
+        <members>ScorecardMetric</members>
         <members>Site</members>
         <members>SocialPersona</members>
         <members>Solution</members>
@@ -648,6 +667,7 @@
         <members>Task</members>
         <members>User</members>
         <members>UserProvisioningRequest</members>
+        <members>commonObj__c</members>
         <members>data77__c</members>
         <members>dummy_object__c</members>
         <members>dupli_org_obj__c</members>
@@ -672,6 +692,7 @@
         <members>Custom_Object__c-en_US</members>
         <members>EZcommitTest1__c-en_US</members>
         <members>EZcommitTest2__c-en_US</members>
+        <members>commonObj__c-en_US</members>
         <members>data77__c-en_US</members>
         <members>dummy_object__c-en_US</members>
         <members>dupli_org_obj__c-en_US</members>
@@ -774,12 +795,15 @@
         <members>Pricebook2-Price Book Layout</members>
         <members>PricebookEntry-Price Book Entry Layout</members>
         <members>Product2-Product Layout</members>
+        <members>Scorecard-Scorecard Layout</members>
+        <members>ScorecardMetric-Scorecard Metric Layout</members>
         <members>Solution-Solution Layout</members>
         <members>Task-Task Layout</members>
         <members>User-User Layout</members>
         <members>UserProvAccount-User Provisioning Account Layout</members>
         <members>UserProvisioningLog-User Provisioning Log Layout</members>
         <members>UserProvisioningRequest-User Provisioning Request Layout</members>
+        <members>commonObj__c-commonObj Layout</members>
         <members>data77__c-data77 Layout</members>
         <members>dummy_object__c-dummy_object Layout</members>
         <members>dupli_org_obj__c-dupli_org_obj Layout</members>
@@ -977,7 +1001,37 @@
         <name>Settings</name>
     </types>
     <types>
-        <members>Task.UpdateStatus_0.quickAction</members>
+        <members>Account</members>
+        <members>Account__c</members>
+        <members>Asset</members>
+        <members>Campaign</members>
+        <members>Case</members>
+        <members>Contact</members>
+        <members>CustomLabel1__c</members>
+        <members>Custom_Object__c</members>
+        <members>EZcommitTest1__c</members>
+        <members>EZcommitTest2__c</members>
+        <members>Lead</members>
+        <members>Opportunity</members>
+        <members>Order</members>
+        <members>User</members>
+        <members>commonObj__c</members>
+        <members>data77__c</members>
+        <members>dummy_object__c</members>
+        <members>dupli_org_obj__c</members>
+        <members>duplicate_123__c</members>
+        <members>khnbhk__c</members>
+        <members>menuObject__c</members>
+        <members>newsampleObj1__c</members>
+        <members>newsampleObj__c</members>
+        <members>org_obj_sample__c</members>
+        <members>random_data_777__c</members>
+        <members>sampleObject__c</members>
+        <members>substitute1__c</members>
+        <members>test__c</members>
+        <members>testingsample__c</members>
+        <members>trunkVariable__c</members>
+        <members>trunk_label__c</members>
         <name>SharingRules</name>
     </types>
     <types>

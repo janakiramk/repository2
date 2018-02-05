@@ -82,11 +82,6 @@
         <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>LocationId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
         <fullName>Name</fullName>
         <trackHistory>false</trackHistory>
     </fields>
@@ -140,6 +135,9 @@
         <fullName>Status</fullName>
         <trackHistory>false</trackHistory>
         <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>StockKeepingUnit</fullName>
     </fields>
     <fields>
         <fullName>UsageEndDate</fullName>

@@ -9,7 +9,6 @@
     <tab>standard-Account</tab>
     <tab>standard-report</tab>
     <tab>standard-Dashboard</tab>
-    <tab>standard-Chatter</tab>
     <tab>standard-home</tab>
     <tab>Custom_Object__c</tab>
     <uiType>Lightning</uiType>
