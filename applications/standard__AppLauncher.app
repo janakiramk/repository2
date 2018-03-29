@@ -3,4 +3,7 @@
     <defaultLandingTab>standard-home</defaultLandingTab>
     <formFactors>Large</formFactors>
     <tab>standard-AppLauncher</tab>
+    <tab>Account__c</tab>
+    <tab>CustomLabel1__c</tab>
+    <tab>Custom_Object__c</tab>
 </CustomApplication>

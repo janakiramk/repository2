@@ -9,4 +9,7 @@
     <tab>standard-Opportunity</tab>
     <tab>standard-report</tab>
     <tab>standard-Dashboard</tab>
+    <tab>Account__c</tab>
+    <tab>CustomLabel1__c</tab>
+    <tab>Custom_Object__c</tab>
 </CustomApplication>

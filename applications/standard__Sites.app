@@ -2,4 +2,7 @@
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
     <defaultLandingTab>standard-home</defaultLandingTab>
     <tab>standard-Chatter</tab>
+    <tab>Account__c</tab>
+    <tab>CustomLabel1__c</tab>
+    <tab>Custom_Object__c</tab>
 </CustomApplication>

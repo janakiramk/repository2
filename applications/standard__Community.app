@@ -7,8 +7,9 @@
     <tab>standard-Account</tab>
     <tab>standard-Idea</tab>
     <tab>standard-IdeaTheme</tab>
-    <tab>standard-Answers</tab>
     <tab>standard-report</tab>
     <tab>standard-Dashboard</tab>
-    <tab>standard-Questions</tab>
+    <tab>Account__c</tab>
+    <tab>CustomLabel1__c</tab>
+    <tab>Custom_Object__c</tab>
 </CustomApplication>

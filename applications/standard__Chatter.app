@@ -7,4 +7,6 @@
     <tab>standard-OtherUserProfile</tab>
     <tab>standard-CollaborationGroup</tab>
     <tab>standard-File</tab>
+    <tab>Account__c</tab>
+    <tab>Custom_Object__c</tab>
 </CustomApplication>
