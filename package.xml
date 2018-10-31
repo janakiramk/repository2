@@ -73,7 +73,6 @@
         <members>Account.AccountSource</members>
         <members>Account.Active__c</members>
         <members>Account.AnnualRevenue</members>
-        <members>Account.AutorabitExtId__c</members>
         <members>Account.BillingAddress</members>
         <members>Account.CleanStatus</members>
         <members>Account.CustomerPriority__c</members>
@@ -109,12 +108,10 @@
         <members>AccountCleanInfo.Industry</members>
         <members>AccountCleanInfo.Ownership</members>
         <members>AccountContactRole.Role</members>
-        <members>Activity.AutorabitExtId__c</members>
         <members>Asset.AccountId</members>
         <members>Asset.AssetLevel</members>
         <members>Asset.AssetProvidedById</members>
         <members>Asset.AssetServicedById</members>
-        <members>Asset.AutorabitExtId__c</members>
         <members>Asset.ContactId</members>
         <members>Asset.Description</members>
         <members>Asset.InstallDate</members>
@@ -290,7 +287,6 @@
         <members>Contract.StartDate</members>
         <members>Contract.Status</members>
         <members>ContractContactRole.Role</members>
-        <members>CustomLabel1__c.AutorabitExtId__c</members>
         <members>CustomSettingListType1Obj__c.CallAvailableTime__c</members>
         <members>CustomSettingListType1Obj__c.Custom_Desc_textarea__c</members>
         <members>CustomSettingListType1Obj__c.Customer_Email__c</members>
@@ -406,7 +402,6 @@
         <members>DandBCompany.YearStarted</members>
         <members>DuplicateRecordItem.DuplicateRecordSetId</members>
         <members>DuplicateRecordItem.RecordId</members>
-        <members>DuplicateRecordSet.AutorabitExtId__c</members>
         <members>DuplicateRecordSet.DuplicateRuleId</members>
         <members>DuplicateRecordSet.RecordCount</members>
         <members>EmailMessage.BccAddress</members>
@@ -480,7 +475,6 @@
         <members>Lead.Title</members>
         <members>Lead.Website</members>
         <members>LeadCleanInfo.Industry</members>
-        <members>Macro.AutorabitExtId__c</members>
         <members>Macro.Description</members>
         <members>Macro.IsAlohaSupported</members>
         <members>Macro.Name</members>
@@ -500,7 +494,6 @@
         <members>OBILLSwitchesObj__c.Value__c</members>
         <members>Opportunity.AccountId</members>
         <members>Opportunity.Amount</members>
-        <members>Opportunity.AutorabitExtId__c</members>
         <members>Opportunity.CampaignId</members>
         <members>Opportunity.CloseDate</members>
         <members>Opportunity.ContractId</members>
@@ -539,7 +532,6 @@
         <members>Order.AccountNumber</members>
         <members>Order.ActivatedById</members>
         <members>Order.ActivatedDate</members>
-        <members>Order.AutorabitExtId__c</members>
         <members>Order.BillToContactId</members>
         <members>Order.BillingAddress</members>
         <members>Order.CompanyAuthorizedById</members>
@@ -577,7 +569,6 @@
         <members>OrderItem.TotalPrice</members>
         <members>OrderItem.UnitPrice</members>
         <members>PartnerRole.ReverseRole</members>
-        <members>Pricebook2.AutorabitExtId__c</members>
         <members>Pricebook2.Description</members>
         <members>Pricebook2.IsActive</members>
         <members>Pricebook2.IsStandard</members>
@@ -660,7 +651,6 @@
         <members>Task.Type</members>
         <members>Task.WhatId</members>
         <members>Task.WhoId</members>
-        <members>User.AutorabitExtId__c</members>
         <members>User.ManagerId</members>
         <members>UserProvisioningRequest.AppName</members>
         <members>UserProvisioningRequest.ApprovalStatus</members>
@@ -674,7 +664,6 @@
         <members>UserProvisioningRequest.State</members>
         <members>UserProvisioningRequest.UserProvAccountId</members>
         <members>khnbhk__c.m_nbs__c</members>
-        <members>org_obj_sample__c.AutorabitExtId__c</members>
         <name>CustomField</name>
     </types>
     <types>
