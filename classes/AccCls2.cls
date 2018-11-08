@@ -1,5 +1,5 @@
 public class AccCls2{
 
-//Sample Class added
+//deleted all comments
 
 }

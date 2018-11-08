@@ -2,11 +2,29 @@
 <CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
     <defaultLandingTab>standard-home</defaultLandingTab>
     <formFactors>Large</formFactors>
-    <tab>standard-Chatter</tab>
-    <tab>standard-UserProfile</tab>
-    <tab>standard-OtherUserProfile</tab>
-    <tab>standard-CollaborationGroup</tab>
-    <tab>standard-File</tab>
-    <tab>Account__c</tab>
-    <tab>Custom_Object__c</tab>
+    <tabs>standard-Chatter</tabs>
+    <tabs>standard-UserProfile</tabs>
+    <tabs>standard-OtherUserProfile</tabs>
+    <tabs>standard-CollaborationGroup</tabs>
+    <tabs>standard-File</tabs>
+    <tabs>Emp__c</tabs>
+    <tabs>Emp2__c</tabs>
+    <tabs>ExObj1__x</tabs>
+    <tabs>Visitor__c</tabs>
+    <tabs>ExObj2__x</tabs>
+    <tabs>ExtObj3__x</tabs>
+    <tabs>Student__c</tabs>
+    <tabs>Pass1__c</tabs>
+    <tabs>Pass2__c</tabs>
+    <tabs>Pass3__c</tabs>
+    <tabs>College__c</tabs>
+    <tabs>SObj1__c</tabs>
+    <tabs>HistoryTestObj__c</tabs>
+    <tabs>InstallationObj__c</tabs>
+    <tabs>Expenses__c</tabs>
+    <tabs>CustomController__c</tabs>
+    <tabs>TranslationObj2__c</tabs>
+    <tabs>TransObj12__c</tabs>
+    <tabs>prd__c</tabs>
+    <tabs>pd1__c</tabs>
 </CustomApplication>

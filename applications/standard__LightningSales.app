@@ -5,27 +5,41 @@
     <formFactors>Large</formFactors>
     <label>Sales</label>
     <navType>Standard</navType>
-    <tab>standard-home</tab>
-    <tab>standard-Chatter</tab>
-    <tab>standard-WaveHome</tab>
-    <tab>standard-Opportunity</tab>
-    <tab>standard-Quote</tab>
-    <tab>standard-Lead</tab>
-    <tab>standard-Task</tab>
-    <tab>standard-File</tab>
-    <tab>standard-ContentNote</tab>
-    <tab>standard-Account</tab>
-    <tab>standard-Contact</tab>
-    <tab>standard-Campaign</tab>
-    <tab>standard-Dashboard</tab>
-    <tab>standard-report</tab>
-    <tab>standard-Feed</tab>
-    <tab>standard-CollaborationGroup</tab>
-    <tab>standard-Event</tab>
-    <tab>standard-OtherUserProfile</tab>
-    <tab>standard-Case</tab>
-    <tab>standard-News</tab>
-    <tab>standard-ForecastingLightning</tab>
-    <tab>standard-EinsteinAnalytics</tab>
+    <tabs>standard-home</tabs>
+    <tabs>standard-Opportunity</tabs>
+    <tabs>standard-Lead</tabs>
+    <tabs>standard-Task</tabs>
+    <tabs>standard-File</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>standard-Campaign</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-Feed</tabs>
+    <tabs>standard-CollaborationGroup</tabs>
+    <tabs>standard-Event</tabs>
+    <tabs>standard-OtherUserProfile</tabs>
+    <tabs>standard-Case</tabs>
+    <tabs>standard-Forecasting3</tabs>
+    <tabs>Emp__c</tabs>
+    <tabs>Emp2__c</tabs>
+    <tabs>ExObj1__x</tabs>
+    <tabs>Visitor__c</tabs>
+    <tabs>ExObj2__x</tabs>
+    <tabs>ExtObj3__x</tabs>
+    <tabs>Student__c</tabs>
+    <tabs>Pass1__c</tabs>
+    <tabs>Pass2__c</tabs>
+    <tabs>Pass3__c</tabs>
+    <tabs>College__c</tabs>
+    <tabs>SObj1__c</tabs>
+    <tabs>HistoryTestObj__c</tabs>
+    <tabs>InstallationObj__c</tabs>
+    <tabs>Expenses__c</tabs>
+    <tabs>CustomController__c</tabs>
+    <tabs>TranslationObj2__c</tabs>
+    <tabs>TransObj12__c</tabs>
+    <tabs>prd__c</tabs>
+    <tabs>pd1__c</tabs>
     <uiType>Lightning</uiType>
 </CustomApplication>

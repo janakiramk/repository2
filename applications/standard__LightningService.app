@@ -3,16 +3,57 @@
     <formFactors>Large</formFactors>
     <label>Service Console</label>
     <navType>Console</navType>
-    <setupExperience>ServiceSetup</setupExperience>
-    <tab>standard-Case</tab>
-    <tab>standard-Contact</tab>
-    <tab>standard-Account</tab>
-    <tab>standard-report</tab>
-    <tab>standard-Dashboard</tab>
-    <tab>standard-home</tab>
-    <tab>Account__c</tab>
-    <tab>CustomLabel1__c</tab>
-    <tab>Custom_Object__c</tab>
+    <setupExperience>service</setupExperience>
+    <tabs>standard-Case</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <tabs>standard-home</tabs>
+    <tabs>Expenses__c</tabs>
+    <tabs>CustomController__c</tabs>
+    <tabs>TranslationObj2__c</tabs>
+    <tabs>TransObj12__c</tabs>
+    <tabs>prd__c</tabs>
+    <tabs>pd1__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>LightningService_UtilityBar</utilityBar>
+    <workspaceConfig>
+        <mappings>
+            <tab>CustomController__c</tab>
+        </mappings>
+        <mappings>
+            <tab>Expenses__c</tab>
+        </mappings>
+        <mappings>
+            <tab>TransObj12__c</tab>
+        </mappings>
+        <mappings>
+            <tab>TranslationObj2__c</tab>
+        </mappings>
+        <mappings>
+            <tab>pd1__c</tab>
+        </mappings>
+        <mappings>
+            <tab>prd__c</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-Account</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-Case</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-Contact</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-Dashboard</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-home</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-report</tab>
+        </mappings>
+    </workspaceConfig>
 </CustomApplication>

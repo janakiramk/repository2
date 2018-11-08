@@ -110,5 +110,23 @@
         <type>Checkbox</type>
     </fields>
     <label>OBILLSwitches</label>
+    <listViews>
+        <fullName>CustomSeetingsViewAll</fullName>
+        <columns>NAME</columns>
+        <columns>OBJECT_ID</columns>
+        <columns>IsAvailableForLive__c</columns>
+        <columns>NumberOFProductsPurchase__c</columns>
+        <columns>ProductCost__c</columns>
+        <columns>ProductDescription__c</columns>
+        <columns>ProductFeedBackInfo__c</columns>
+        <columns>ProductPurchaseDate__c</columns>
+        <columns>ProductSupportMobileNumber__c</columns>
+        <columns>ProductUrlInfo__c</columns>
+        <columns>ProductUsagePercentage__c</columns>
+        <columns>Value__c</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <label>CustomSeetingsViewAll</label>
+    </listViews>
     <visibility>Public</visibility>
 </CustomObject>
