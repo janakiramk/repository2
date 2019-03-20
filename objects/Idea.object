@@ -26,6 +26,16 @@
         <fullName>Status</fullName>
         <type>Picklist</type>
     </fields>
+    <fields>
+        <fullName>abcd1234__c</fullName>
+        <description>New Field created by AutoRABIT</description>
+        <externalId>false</externalId>
+        <label>abcd1234</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
     <listViews>
         <fullName>Ideas_Last_7_Days</fullName>
         <columns>IDEA.CREATED_DATE</columns>
