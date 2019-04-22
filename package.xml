@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><Package xmlns="http://soap.sforce.com/2006/04/metadata">
-    <version>45.0</version>
+    <version>44.0</version>
     <types>
+        <members>A0</members>
+        <members>A0123</members>
+        <members>A01234</members>
+        <members>A01234567</members>
+        <members>A012378</members>
+        <members>A025</members>
         <members>A027</members>
         <members>A21</members>
         <members>A2222</members>
@@ -27,6 +33,21 @@
         <members>Case</members>
         <members>Lead</members>
         <name>AssignmentRules</name>
+    </types>
+    <types>
+        <members>AuraTest2</members>
+        <members>AuraTest3</members>
+        <members>Auratest56</members>
+        <members>Auratest6</members>
+        <members>DiffAuraComponent</members>
+        <members>Test1</members>
+        <members>Test1Aura</members>
+        <members>forgotPassword</members>
+        <members>loginForm</members>
+        <members>selfRegister</members>
+        <members>setExpId</members>
+        <members>setStartUrl</members>
+        <name>AuraDefinitionBundle</name>
     </types>
     <types>
         <members>Case</members>
