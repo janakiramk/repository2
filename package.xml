@@ -1024,9 +1024,9 @@
         <name>EmailTemplate</name>
     </types>
     <types>
-        <members>contrÃ´lesla_v1_v1</members>
-        <members>contrÃ´lesla_v2_v1</members>
-        <members>specialcharacterobject_contrÃ´lesla_v1_v1_v1</members>
+        <members>contrÃƒÂ´lesla_v1_v1</members>
+        <members>contrÃƒÂ´lesla_v2_v1</members>
+        <members>specialcharacterobject_contrÃƒÂ´lesla_v1_v1_v1</members>
         <name>EntitlementProcess</name>
     </types>
     <types>
@@ -1105,7 +1105,7 @@
         <members>UserProvAccount-User Provisioning Account Layout</members>
         <members>UserProvisioningLog-User Provisioning Log Layout</members>
         <members>UserProvisioningRequest-User Provisioning Request Layout</members>
-        <members>bject123__c-Ã´bject123 Layout</members>
+        <members>bject123__c-ÃƒÂ´bject123 Layout</members>
         <members>data77__c-data77 Layout</members>
         <members>dummy_object__c-dummy_object Layout</members>
         <members>dupli_org_obj__c-dupli_org_obj Layout</members>
