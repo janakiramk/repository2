@@ -1,6 +1,6 @@
 <aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
 	<div>
-    		<aura:attribute name="taskClone" type="TaskClone[]" />
+    		<aura:attribute name="task" type="Task[]" />
         <hr/>
     </div>
     <div class="uiInput uiInputRadio1 uiInput--default uiInput--radio1">
