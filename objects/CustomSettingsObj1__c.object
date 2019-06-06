@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <customSettingsType>List</customSettingsType>
-    <description><pre>testing purpose12345</pre></description>
+    <description>testing purpose12345</description>
     <enableFeeds>false</enableFeeds>
     <fields>
         <fullName>test_desc__c</fullName>
