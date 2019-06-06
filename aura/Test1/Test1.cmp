@@ -1,6 +1,13 @@
 <aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
 	<div>
-    <h1>Hi Welcome</h1>
+    		<aura:attribute name="taskClone" type="TaskClone[]" />
         <hr/>
+    </div>
+    <div class="uiInput uiInputRadio1 uiInput--default uiInput--radio1">
+	<label class="slds-radio1">
+	    <ui:inputRadio1 text="{!obj.Id}" change="{!c.onCheck}" name="radiooptions1" value=""/>
+	    <span class="slds-radio1--faux"></span>
+	</label>  
+
     </div>
 </aura:component>
