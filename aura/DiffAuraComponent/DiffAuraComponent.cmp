@@ -1,6 +1,6 @@
 <aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,forceCommunity:availableForAllPageTypes,force:lightningQuickAction" access="global" >
 	<div>
-    		<aura:attribute name="task" type="Task[]" /><!---0000--->
+    		<aura:attribute name="task" type="Task[123]" /><!---0000--->
         <hr/>
     </div>
     <div class="uiInput uiInputRadio1 uiInput--default uiInput--radio1">
@@ -8,14 +8,14 @@
 	    <ui:inputRadio1 text="{!obj.Id}" change="{!c.onCheck}" name="radiooptions1" value=""/>
 	    <span class="slds-radio1--faux"></span>
 	</label>  
-    </div><!---5678--->
+    </div><!---1111--->
     		<aura:attribute name="task" type="Task[]" /><!---00000--->
         <hr/>
     </div>
-    <div class="uiInput uiInputRadio1 uiInput--default uiInput--radio1">
-	<label class="slds-radio1">
-	    <ui:inputRadio1 text="{!obj.Id}" change="{!c.onCheck}" name="radiooptions1" value=""/>
-	    <span class="slds-radio1--faux"></span>
+    <div class="uiInput uiInputRadio2 uiInput--default uiInput--radio2">
+	<label class="slds-radio2">
+	    <ui:inputRadio2 text="{!obj2.Id}" change="{!c.onCheck}" name="radiooptions2" value=""/>
+	    <span class="slds-radio2--faux"></span>
 	</label>  
     </div><!---99999--->
 </aura:component>
