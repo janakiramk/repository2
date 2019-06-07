@@ -1,12 +1,12 @@
-Dear {!Contact.FirstName},
+Dear {!Contact.LastName},
 
 {!Case.Solution_Description}
 
 Thank you,
 
-{!User.Name}
+{!User.Name, !Details}
 {!Organization.Name}
 
-Your comment:
+Your comment: 12
 
 {!Case.Description}
