@@ -14,7 +14,7 @@
             <criteriaItems>
                 <field>Account.SLA__c</field>
                 <operation>equals</operation>
-                <value>Gold,Platinum</value>
+                <value>Gold,Platinum,Silver</value>
             </criteriaItems>
             <criteriaItems>
                 <field>Account.Type</field>
@@ -23,17 +23,17 @@
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>janakiram.guptaorg@autorabit.com</assignedTo>
+            <assignedTo>janakiram.gupta@autorabit.com</assignedTo>
             <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Account.BillingCountry</field>
                 <operation>equals</operation>
-                <value>US,USA,United States,United States of America</value>
+                <value>India, US,USA,United States,United States of America</value>
             </criteriaItems>
             <criteriaItems>
                 <field>Account.SLA__c</field>
                 <operation>equals</operation>
-                <value>Silver,Bronze</value>
+                <value>Silver,Bronze,Copper</value>
             </criteriaItems>
             <criteriaItems>
                 <field>Account.Type</field>
