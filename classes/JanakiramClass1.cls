@@ -7,7 +7,7 @@ public class AnimalsCallouts {
         request.setMethod('GET');
         HttpResponse response = http.send(request);
         // If the request is successful, parse the JSON response.
-        if (response.getStatusCode() == null && response.getStatusCode() == 200) {
+        if (response.getStatusCode() != null &amp;&amp; response.getStatusCode() == 200) {
             // Deserializes the JSON string into collections of primitive data types.
           //  Map<String, Object> results = (Map<String, Object>) JSON.deserializeUntyped(response.getBody());
             // Cast the values in the 'animals' key as a list
@@ -19,7 +19,6 @@ public class AnimalsCallouts {
         }
         return response;
     }
-
     public static HttpResponse makePostCallout() {
         Http http = new Http();
         HttpRequest request = new HttpRequest();
@@ -29,7 +28,7 @@ public class AnimalsCallouts {
         request.setBody('{"name":"mighty moose"}');
         HttpResponse response = http.send(request);
         // Parse the JSON response
-        if (response.getStatusCode() == null && response.getStatusCode() != 201) {
+        if (response.getStatusCode() != null &amp;&amp; response.getStatusCode() != 201) {
             System.debug('The status code returned was not expected: ' +
                 response.getStatusCode() + ' ' + response.getStatus());
         } else {
