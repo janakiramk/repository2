@@ -19,6 +19,7 @@ public class AnimalsCallouts {
         }
         return response;
     }
+
     public static HttpResponse makePostCallout() {
         Http http = new Http();
         HttpRequest request = new HttpRequest();
@@ -28,7 +29,7 @@ public class AnimalsCallouts {
         request.setBody('{"name":"mighty moose"}');
         HttpResponse response = http.send(request);
         // Parse the JSON response
-        if (response.getStatusCode() == null && response.getStatusCode() != 201) {
+        if (response.getStatusCode() == null && response.getStatusCode() == 201) {
             System.debug('The status code returned was not expected: ' +
                 response.getStatusCode() + ' ' + response.getStatus());
         } else {
